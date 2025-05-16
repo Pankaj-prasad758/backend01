@@ -1,0 +1,19 @@
+{
+  "name": "backend01",
+  "version": "1.0.0",
+  "description": "backend project structure ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "JavaScript",
+    "MERN"
+  ],
+  "author": "pankaj",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
