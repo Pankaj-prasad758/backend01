@@ -9,7 +9,7 @@ dotenv.config({
 })
 
 connectDB()
-
+// remember about path:"./.env" file
 
 // const app = express();
 // (async () => {
