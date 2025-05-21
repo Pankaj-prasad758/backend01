@@ -6,6 +6,14 @@ const asyncHandler = (requestHandler) => {
   };
 };
 
+// export const asyncHandle = (asyncfunction) => {
+//   (req, res, next) => {
+//    Promise.resolve(asyncfunction(req, res, next)).catch((error) => {
+//     next(error)
+//    })
+//   }
+// }
+
 export { asyncHandler }
 // const asyncHandler = (fn) => async (req, res, next) => {
 //     try {
@@ -17,3 +25,14 @@ export { asyncHandler }
 //         })
 //     }
 // }
+
+// const asyncHandlerTest = (fn) => async (req, res, next) => {
+//    try {
+//     await fn(req, res, next)
+//    } catch (error) {
+//     res.status(error.code || 402).json({
+//       success: false,
+//       message: error.message
+//     })
+//    }
+// } 
