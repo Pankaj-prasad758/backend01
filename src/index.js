@@ -9,6 +9,8 @@ dotenv.config({
   path: "./.env",
 });
 
+
+//connectDB return a promise 
 connectDB()
   .then(() => {
     app.on("error", (error) => {
